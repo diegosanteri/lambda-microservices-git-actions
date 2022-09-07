@@ -13,8 +13,12 @@ async function run () {
         let r = gitDiffFrom.gitDiffFrom(5, null, {
             cwd: path.resolve(module.path),
         });
-        console.log(r);
+
+        console.log(r[0])
+        if(r.length > 0 && r[0].files.length > 0) {
+            console.log("changes")
+        }
     })
 }
 
-run();
+run(); 
