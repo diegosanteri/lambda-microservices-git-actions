@@ -1,6 +1,9 @@
 {
     "modules": [{
         "name": "api-test",
-        "path": "./api-test"
+        "path": "./api-test/"
+    }, {
+        "name": "api-test-2",
+        "path": "./api-test-2/"
     }]
 }

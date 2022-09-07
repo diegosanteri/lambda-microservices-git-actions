@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@actions/core": "^1.9.1",
-    "git-diff-from": "^1.1.33"
+    "git-diff-from": "^1.1.33",
+    "gitdiff-parser": "^0.2.2",
+    "parse-git-diff": "^0.0.6"
   }
 }
